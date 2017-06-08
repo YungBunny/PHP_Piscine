@@ -1,0 +1,108 @@
+.page{
+	width: 80%;
+	margin: 0px 230px 0px 230px;
+}
+.middle{
+	width: 50%;
+	height: 50%;
+}
+#cluster{
+	width: 100%;
+}
+#main{
+	position:absolute;
+	background-color: #8c8c8c;
+	border: 10px solid #8c8c8c;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px #000000;
+	margin:0% 0% 0% 10%;
+}
+#header{
+	width: 40%;
+}
+.headerB{
+	border: 5px solid #8c8c8c;
+	background-color: #8c8c8c;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px #000000;
+}
+#green_arrow{
+	width: 60px;
+	height: 60px;
+	padding: 2.5%;
+}
+.left{
+	float: left;
+	position: absolute;
+	height: 34%;
+	border: 10px solid #8c8c8c;
+	background-color: #8c8c8c;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px #000000;
+	margin:0% 0% 0% 2%;
+}
+#book{
+	margin: 0px 10px 0px 10px;
+	width: 55px;
+	height: 70px;
+	padding: 2.5%;
+}
+.right{
+	float: right;
+	height: 34%;
+	border: 10px solid #8c8c8c;
+	background-color: #8c8c8c;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px #000000;
+	margin: 0% 2% 0% 0%;
+}
+#glass{
+	position: absolute;
+	margin: 0px 0px 0px 495px;
+	width: 17%
+}
+#exit{
+	position: absolute;
+	top: 13%;
+	left: 91%;
+	width: 1.5%;
+}
+#reload{
+	float:right;
+	width: 2%;
+}
+.redeye{
+	z-index: 1;
+	border: 3px solid red;
+	border-radius: 5px;
+}
+#repeat{
+	height: 70px;
+	padding: 2.5%;
+	z-index: 1;
+	background-image: url("./resources/brick.jpg");
+}
+#chat{
+	z-index: 1;
+	position: absolute;
+	bottom: 10em;
+	left: 15em;
+	width: 15em;
+	background-color: #bbff99;
+	border-radius: 5px;
+	box-shadow: 8px 8px 8px #000000;
+	padding: 1em 1em 3em 1em;
+}
+.txt-big
+{
+	font-size: 2em;
+	}
+	.txt-shadow{
+		text-shadow: -.25em .25em .25em red;
+	}
+	.txt-italic{
+		font-style: italic;
+	}
+	.input-text{
+		width: 20 em;
+}

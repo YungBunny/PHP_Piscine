@@ -1,0 +1,194 @@
+#black {
+	color: rgba(0, 0, 0, 1);
+}
+BODY {
+	font-family: "Courier New";
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.cell{
+	float: left;
+	position: relative;
+	width: 5.55%;
+	height: 7%;
+}
+.atom_num{
+	position: absolute;
+	font-size: 8px;
+	font-size: 0.7vmin;
+	top: 4px;
+	right: 5px;
+	color: rgba(255, 255, 255, 0.9);
+}	
+.element{
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	right: 0px;
+	margin-top: -4px;
+	font-size: 20px;
+	font-size: 2vmin;
+	line-height: 1;
+	height: 9px;
+	color: rgba(255, 255, 255, 0.9);
+}
+.info{
+	position: absolute;
+	font-size: 8px;
+	font-size:0.7vmin;
+	bottom: 4px;
+	left: 0px;
+	right: 0px;
+	color: rgba(255, 255, 255, 0.6);
+}
+.alkali_metal{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 1px;
+	right: 1px;
+	background-color: rgba(179, 89, 0, 0.6);
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.cell:hover .alkali_metal {
+	border-color: rgba(0,0,0,0.1);
+	z-index: 1; 
+	background-color: rgba(0, 0, 0, 1);
+}
+.alkaline_earth{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 1px;
+	right: 1px;
+	background-color: rgba(77, 0, 0, 0.6);
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.cell:hover .alkaline_earth {
+	border-color: rgba(0,0,0,0.1);
+	z-index: 1; 
+	background-color: rgba(0, 0, 0, 1);
+}
+.transition_metal{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 1px;
+	right: 1px;
+	background-color: rgba(195, 158, 121, 0.6);
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.cell:hover .transition_metal {
+	border-color: rgba(0,0,0,0.1);
+	z-index: 1; 
+	background-color: rgba(0, 0, 0, 1);
+}
+.basic_metal{
+	color: rgba(0, 0, 0, 1);
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 1px;
+	right: 1px;
+	background-color: rgba(255, 212, 128, 0.6);
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.cell:hover .basic_metal {
+	border-color: rgba(0,0,0,0.1);
+	z-index: 1;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+.semimetal{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 1px;
+	right: 1px;
+	background-color: rgba(51, 38, 0, 0.6);
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.cell:hover .semimetal {
+	border-color: rgba(0,0,0,0.1);
+	z-index: 1; 
+	background-color: rgba(0, 0, 0, 1);
+}
+.nonmetal{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 1px;
+	right: 1px;
+	background-color: rgba(179, 134, 0, 0.6);
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.cell:hover .nonmetal {
+	border-color: rgba(0,0,0,0.1);
+	z-index: 1; 
+	background-color: rgba(0, 0, 0, 1);
+}
+.halogen{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 1px;
+	right: 1px;
+	background-color: rgba(191, 128, 64, 0.6);
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+		}
+		.cell:hover .halogen {
+			border-color: rgba(0,0,0,0.1);
+			z-index: 1; 
+			background-color: rgba(0, 0, 0, 1);
+}
+.noble_gas{
+	position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 1px;
+		right: 1px;
+		background-color: rgba(128, 43, 0, 0.6);
+		text-align: center;
+		border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.cell:hover .noble_gas {
+	border-color: rgba(0,0,0,0.1);
+	z-index: 1; 
+	background-color: rgba(0, 0, 0, 1);
+}
+.lanthanide{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 1px;
+	right: 1px;
+	background-color: rgba(67, 48, 30, 0.6);
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.cell:hover .lanthanide {
+	border-color: rgba(0,0,0,0.1);
+	z-index: 1; 
+	background-color: rgba(0, 0, 0, 1);
+}
+.actinide{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 1px;
+	right: 1px;
+	background-color: rgba(91, 54, 41, 0.6);
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.cell:hover .actinide {
+	border-color: rgba(0,0,0,0.1);
+	z-index: 1; 
+	background-color: rgba(0, 0, 0, 1);
+}
